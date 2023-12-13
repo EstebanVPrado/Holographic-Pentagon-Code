@@ -163,6 +163,11 @@ def new_pentagon_with_operator_to_the_right(operator):
 def new_pentagon():
     return tn.Node(pentagon_tensor)
 
+def new_qubit(vector):
+    qubit_node = tn.Node(np.array(vector))
+    qubit = qubit_node[0]
+    return qubit
+
 # Defining some CONSTANTS
 
 '''
